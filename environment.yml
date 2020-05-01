@@ -1,0 +1,12 @@
+name: debord
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - jupyterlab
+  - bokeh
+  # https://gist.github.com/shravan-kuchkula/778e90eef818aa955676963c0132f08b
+  - fiona
+  - descartes
+  - geopandas
